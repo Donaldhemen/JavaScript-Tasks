@@ -1,0 +1,11 @@
+Question 59 Difference between break and continue
+
+The break statement, when executed in a while, for, do…while or switch, causes immediate
+exit from that statement. Execution continues with the first statement after the control
+statement. Common uses of break are to escape early from a loop or to skip the
+remainder of a switch.
+The continue statement, when executed in a while, for or do…while, skips the remaining
+statements in the loop body and proceeds with the next iteration of the loop. In while
+and do…while statements, the program evaluates the loop-continuation test immediately
+after the continue statement executes. In a for statement, the increment expression executes,
+then the program evaluates the loop-continuation test.

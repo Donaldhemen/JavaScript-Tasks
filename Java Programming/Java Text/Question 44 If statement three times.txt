@@ -1,0 +1,13 @@
+Question 44 If statement three times instead of if/else chain
+
+In Java, using an if / else if chain instead of three separate 
+if statements controls whether your conditions are treated as mutually 
+exclusive or independent.
+
+if / else if chain: The conditions are linked. 
+Java evaluates them from top to bottom and stops as soon as it finds a 
+true condition. Only one code block will run.
+
+Three separate if statements: The conditions are completely independent. 
+Java will test every single condition, meaning multiple code blocks can 
+run if more than one condition is true

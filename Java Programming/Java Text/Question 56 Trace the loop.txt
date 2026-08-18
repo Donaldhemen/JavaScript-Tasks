@@ -1,0 +1,4 @@
+// Question 56 Trace the loop
+
+	3 6 9 12 15 18
+	final value of count is 6

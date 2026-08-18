@@ -1,0 +1,7 @@
+Question 11
+
+1. System.out.println(total);
+2. double total = price + tax;
+ Error: cannot find symbol
+line 2 is supposed to execute before line 1, because of the variables in
+line 2 are to be declared before line 1 to execute as sequence statements

@@ -1,0 +1,9 @@
+Question 62 Sentinnel Value
+
+a special value called a sentinel value (also
+
+called a signal value, a dummy value or a flag value) is used 
+to indicate end of data entry
+Sentinel-controlled iteration
+is often called indefinite iteration because the number of iterations
+ is not known before the loop begins executing.

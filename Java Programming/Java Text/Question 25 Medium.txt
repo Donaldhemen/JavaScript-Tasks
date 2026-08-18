@@ -1,0 +1,4 @@
+Question 25 What is printed when x = 15
+
+	when x = 15:
+	Medium is printed

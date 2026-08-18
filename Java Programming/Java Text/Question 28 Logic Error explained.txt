@@ -1,0 +1,6 @@
+Question 28 Logic Error explained
+
+'=' operator is used instead of comparison opreator '=='
+	int x = 10;
+	if (x == 10) {
+	System.out.println("Ten");

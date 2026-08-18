@@ -1,0 +1,4 @@
+1. double price = input.nextDouble();
+2. double tax = price * 0.075;
+3. double total = price + tax;
+4. System.out.printf("Total is %f", total);

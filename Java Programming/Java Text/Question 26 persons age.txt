@@ -1,0 +1,17 @@
+Question 26 If/else chain person's age 
+
+	System.out.print("Enter person's age: ");
+	int age = input.nextInt();
+	
+	if (age < 13) {
+		System.out.println("Child");
+	}
+	else if (age < 17) {
+		System.out.println("Teenager");
+	}
+	else if (age < 65) {
+		System.out.println("Adult");
+	}
+	else (age > 65) {
+		System.out.println("Senior");
+	}

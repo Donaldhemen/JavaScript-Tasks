@@ -1,0 +1,9 @@
+Question 37 Short-circuit
+
+In expressions using &&, a condition—we’ll call this the dependent condition—may require
+another condition to be true for the dependent condition’s evaluation to be meaningful.
+This is called short-circuiting.
+
+In this case, the dependent condition should be placed after the && operator to
+prevent errors. Consider the expression (i != 0) && (10 / i == 2). The dependent condition
+(10 / i == 2) must appear after the && to prevent the possibility of division by zero.

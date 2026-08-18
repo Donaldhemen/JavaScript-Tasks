@@ -1,0 +1,3 @@
+Question 17 TraceTheSequence
+
+Java has 4 letters 

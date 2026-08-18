@@ -1,0 +1,7 @@
+Question 53 Infinite Loop
+An infinite loop occurs with iteration if the
+loop-continuation test never becomes false
+
+Not providing in the body of a while statement an action that eventually causes the condition
+in the while to become false normally results in a logic error called an infinite loop
+(the loop never terminates).

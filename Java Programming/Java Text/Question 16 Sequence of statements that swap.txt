@@ -1,0 +1,10 @@
+Question 16 Sequence of statements that swap
+
+ int firstNumber = 15;
+ int secondNumber = 20;
+ System.out.println(firstNumber + " and " + secondNumber);
+
+ int a = secondNumber;
+ secondNumber = firstNumber
+ firstNumber = a;
+ System.out.println(firstNumber + " and " + secondNumber);

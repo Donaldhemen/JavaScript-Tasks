@@ -1,0 +1,6 @@
+Question 5
+int number = 5;
+number = number + 3;
+number = number * 2;
+System'out.print(number);
+It will print 16 as answer.

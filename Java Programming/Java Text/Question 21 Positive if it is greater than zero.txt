@@ -1,0 +1,7 @@
+Question 21 Positive if it is greater than zero
+
+	int number = input.nextInt();
+	
+	if (number > 0) {
+	System.out.print("Positive");
+	}

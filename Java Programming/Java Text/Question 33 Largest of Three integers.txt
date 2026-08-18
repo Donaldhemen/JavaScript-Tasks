@@ -1,0 +1,23 @@
+Question 33 Largest of Three integers
+
+	Scanner input = new Scanner(System.in);
+	
+	System.out.print("Enter first integer : ");
+	int firstNumber = input.nextInt();
+	
+	System.out.print("Enter second integer : ");
+	int secondNumber = input.nextInt();
+
+	System.out.print("Enter third integer : ");
+	int thirdNumber = input.nextInt();
+	
+	if (firstNumber > secondNumber && firstNumber > thirdNumber) {
+	System.out.println("%d is the largest of the three", firstNumber);
+	}
+	else if (secondNumber > firstNumber && secondNumber > thirdNumber) {
+	System.out.println(""%d is the largest of the three", secondNumber");
+	}
+	else {
+	System.out.println(""%d is the largest of the three", thirdNumber");
+	}
+	

@@ -1,0 +1,28 @@
+Question 41 Dangling if/else problem
+
+Failure to enclose control statement bodies in braces ({ and }). This
+causes a logic error called the “dangling-else” problem
+
+1 if (x > 5)
+2 	if (y > 5)
+3 	System.out.println("x and y are > 5");
+4 else
+5 System.out.println("x is <= 5");
+
+The outer if statement tests whether x isgreater than 5. 
+If so, execution continues by testing whether y is also greater than 5. 
+If the second condition is true, 
+the proper string—"x and y are > 5"—is displayed. 
+However, if the second condition is false, the string "x is <= 5" is displayed,
+ even though we know that x is greater than 5.
+Equally bad, if the outer if statement’s condition is false, 
+the inner if…else is skipped and nothing is displayed.
+
+1 	if (x > 5) {
+2 		if (y > 5) {
+3 		System.out.println("x and y are > 5");
+4		}
+5	}
+6 	else {
+7 	System.out.println("x is <= 5");
+8 	}

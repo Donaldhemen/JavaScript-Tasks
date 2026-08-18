@@ -1,0 +1,32 @@
+Question 43 Three sides of a triangle
+
+// read three sides of triangle: side1, side2 and side3
+// if it is equilateral
+// if it is isosceles
+// if it is scalene 
+// else invalid (does not form a triangle)
+
+	Scanner input = new Scanner(System.in);
+	
+	System.out.print("Enter first side : ");
+	double side1 = input.nextDouble();
+
+	System.out.print("Enter second side : ");
+	double side2 = input.nextDouble();
+
+	System.out.print("Enter third side : ");
+	double side3 = input.nextDouble();
+
+	if ( side1 == side2 && side1 == side3 && side2 == side3) {
+	System.out.println("Equilateral triangle");
+	}
+	else if ( side1 == side2 || side1 == side3 || side2 == side3) {
+	System.out.println("Isosceles triangle");
+	}
+	else if ( side1 != side2 && side1 != side3 && side2 != side3) {
+	System.out.println("Scalene triangle");
+	}
+	else {
+	System.out.println("Invalid");
+	System.out.println("Does not form a triangle");
+	}

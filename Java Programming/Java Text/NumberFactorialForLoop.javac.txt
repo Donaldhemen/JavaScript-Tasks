@@ -1,0 +1,25 @@
+// Question 58 Factorial for loop
+//import Scanner
+//set loop variable to counter
+// set factorial to 1
+// for loop condition is greater than or equal to 1
+// set counter * 5 in print prompt 
+// set counter --
+
+public class NumberFactorialForLoop {
+    public static void main(String[] args) {
+	Scanner input = new Scanner(System.in);
+	
+	System.out.print("Enter number: ");
+	int counter = input.nextInt();
+	int factorial = 1;
+	
+
+		while (counter >= 1) { 
+			factorial *= counter;
+			
+			counter-- ;
+		}
+		System.out.printf("%d ", factorial);
+	}
+}

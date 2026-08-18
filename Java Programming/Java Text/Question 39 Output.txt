@@ -1,0 +1,2 @@
+Question 39 Output when grade = 72
+	C

@@ -1,0 +1,20 @@
+Question 31 Utility Company Charges bill
+
+	System.out.print("Enter number of units: ");
+	int units = input.nextInt();
+
+	if (units > 0 && units <= 100) {
+	int rate = 50;
+	int bill = units * rate;
+	System.out.printf("Bill is %d");
+	}
+	else if (units <= 300) {
+	int rate = 75;
+	int bill = units * rate;
+	System.out.printf("Bill is %d");
+	}
+	else {
+	int rate = 100;
+	int bill = units * rate;
+	System.out.printf("Bill is %d");
+	}

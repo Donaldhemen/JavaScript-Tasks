@@ -1,0 +1,12 @@
+Sequence statement
+Unless directed otherwise, the computer executes Java statements 
+one after the other in the order in which they’re written—
+that is, in sequence.
+ Sequence statements lets you execute as many actions as you want 
+in the order in which they are written.
+A real life example of a sequence statement is how I move from Semicolon to
+Lawanson, Surulere.
+1. Get to Sabo bus stop few metres away
+2. Board a keke-napep to Yaba
+3. Cross pedestrian bridge to Ojuelegba bus stop
+4. Board a bus to Lawanson, Surulere

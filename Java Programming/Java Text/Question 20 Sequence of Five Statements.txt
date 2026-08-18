@@ -1,0 +1,12 @@
+Question 20 Sequence of Five Statements
+
+1. double balance = 5000.00;
+
+2. balance = balance + 1200.50;
+
+3. balance = balance - 750.25;
+
+4. balance = balance + (balance * 1.5 / 100);
+
+5. System.out.printf("The final balance is : %.2f", balance); 
+ 
