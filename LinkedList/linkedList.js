@@ -76,7 +76,7 @@ class LinkedList{
         current.next = current.next.next;
         this.size--;
     }
-    pop(){
+    removeLast(){
         if(this.size == 0){
             return;
         }
@@ -104,7 +104,7 @@ class LinkedList{
         }
         current.data = data;
     }
-    getAt(position){
+    get(position){
         if(position < 0 || position >= this.size){
             return;
         }

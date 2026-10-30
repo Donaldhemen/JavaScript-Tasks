@@ -82,7 +82,7 @@ describe('LinkedList', () => {
         list.append(20);
         list.append(10);
         //when
-        list.pop(2);
+        list.removeLast();
         //assert
         expect(list.size).toBe(2);
         expect(list.head.next.data).toBe(20);
@@ -104,7 +104,7 @@ describe('LinkedList', () => {
         list.append(20);
         list.append(10);
         //when
-        let data = list.getAt(1);
+        let data = list.get(1);
         //assert
         expect(data).toBe(20);
     });

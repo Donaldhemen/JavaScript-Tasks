@@ -1,0 +1,16 @@
+html {
+    background-color: lch(72.62% 40.28 229.35);
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+p[draggable="true"] {
+    color: blue;
+}
